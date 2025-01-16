@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">KanMeiTu</string>
+    <string name="copyright">Copyright 2025 @ IxueA. All Rights Reserved</string>
+    <string name="splash_logo">splash logo</string>
+    <string name="hint_user_name">请输入用户名</string>
+    <string name="hint_user_pwd">请输入密码</string>
+    <string name="login_in">Login In</string>
+    <string name="logout">退出登录</string>
 </resources>
