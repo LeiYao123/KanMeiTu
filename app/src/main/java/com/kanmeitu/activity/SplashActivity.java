@@ -5,14 +5,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.kanmeitu.MainActivity;
 import com.kanmeitu.R;
-import com.kanmeitu.utils.Preference;
 
 public class SplashActivity extends BaseActivity {
     @Override
@@ -46,7 +44,7 @@ public class SplashActivity extends BaseActivity {
             // 没有登录过
             Log.d("SplashActivity", "没有登录过");
             // 登录成功进入首页
-             intent = new Intent(this, LoginActivity.class);
+            intent = new Intent(this, LoginActivity.class);
         }
         startActivity(intent);
     }
